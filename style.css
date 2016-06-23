@@ -1,5 +1,16 @@
-td, th
+.block 
 {
-    border: 1px solid black;
-    background-color:#92D6FF;
+	display: inline;
+	max-width: 50%;
+	width: 50%;
+}
+
+td.grey 
+{
+	background-color: #EEEEEF;
+}
+
+td.light_grey 
+{
+	background-color: #F5F5F6;
 }
