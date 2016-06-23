@@ -87,7 +87,7 @@
     <tr>
     <td class="light_grey">Ajoute un instantané du fichier, en préparation pour le suivi de version</td>
   </tr>
-  
+
   <tr>
     <td class="grey"> $ git diff --staged</td>
   </tr>
@@ -105,6 +105,43 @@
   </tr>
     <tr>
     <td class="light_grey">Enregistre des instantanés de fichiers de façon permanente dans l'historique des versions</td>
+  </tr>
+</table>
+
+<h3>GROUPER DES CHANGEMENTS</h3>
+<p>Nommer une série de commits et combiner les résultats de travaux terminés</p>
+
+<table>
+  <tr>
+    <td class="grey">$ git branch</td>
+  </tr>
+  <tr>
+    <td class="light_grey">Liste toutes les branches locales dans le dépôt courant</td>
+  </tr>
+  <tr>
+    <td class="grey">$ git branch [nom-de-branche]</td>
+  </tr>
+  <tr>
+    <td class="light_grey">Crée une nouvelle branche</td>
+  </tr>
+    <tr>
+    <td class="light_grey"> $ git checkout [nom-de-branche]</td>
+  </tr>
+    <tr>
+    <td class="light_grey">Bascule sur la branche spécifiée et met à jour le répertoire de travail</td>
+  </tr>
+
+  <tr>
+    <td class="grey"> $ git merge [nom-de-branche]</td>
+  </tr>
+  <tr>
+    <td class="light_grey">Combine dans la branche courante l'historique de la branche spécifiée</td>
+  </tr>
+  <tr>
+    <td class="grey"> $ git branch -d [nom-de-branche]</td>
+  </tr>
+  <tr>
+    <td class="light_grey">Supprime la branche spécifiée</td>
   </tr>
 </table>
 
