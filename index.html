@@ -9,8 +9,7 @@
 <!-- Corps de page -->
 <body>
   <header>
-    <h1>Gitub</h1>
-    <h2>Aide-Mémoire GitHub Git</h2>
+    <h1>Aide-Mémoire GitHub Git</h1>
   </header>
 <p>Git est le sytème de gestion de version décentralisé open source qui facilite les activités GitHub sur votre ordinateur. Cet aide-mémoire permet un accès rapide aux instructions des commandes Git les plus utilisées.</p>
 
@@ -25,85 +24,49 @@
 
 <a href="http://git-scm.com">Git pour toutes les plate-formes</a>
 
-  <div>
-    <table>
-      <tr>
-       <th>Commandes</th>
-       <th>Description</th>
-     </tr>
-     <tr>
-      <td>git init</td>
-      <td>Initia­lis­ation d'un répertoire</td>
-    </tr>
+<h3>CONFIGURATION DES OUTILS</h3>
+<p>Configurer les informations de l'utilisateur pour tous les dépôts locaux</p>
+
+<table>
+  <tr>
+    <td class="grey"> $ git config --global user.name "[nom]"</td>
+  </tr>
+  <tr>
+    <td class="light_grey">Définit le nom que vous voulez associer à toutes vos opérations de commit</td>
+  </tr>
+  <tr>
+    <td class="grey">$ git config --global user.email "[adresse email]"</td>
+  </tr>
+  <tr>
+    <td class="light_grey">Définit l'email que vous voulez associer à toutes vos opérations de commit</td>
+  </tr>
     <tr>
-      <td>git status</td>
-      <td>Affiche le statut</td>
-    </tr>
+    <td class="light_grey"> $ git config --global color.ui auto</td>
+  </tr>
     <tr>
-      <td>git add <fi­le></td>
-      <td>Ajoute un fichier</td>
-    </tr>
-    <tr>
-      <td>git add *</td>
-      <td>Ajoute les nouveaux fichiers</td>
-    </tr>
-    <tr>
-      <td>git delete <fi­le></td>
-      <td>Supprime un fichier</td>
-    </tr>
-    <tr>
-      <td>git commit -m "the messag­e"</td>
-      <td>Créer un commit avec un message</td>
-    </tr>
-    <tr>
-      <td>git log</td>
-      <td>Affiche les commits antérieurs à l'actif</td>
-    </tr>
-    <tr>
-      <td>git show <co­mmi­t_h­ash­></td>
-      <td>Affiche les infos d'un commit</td>
-    </tr>
-    <tr>
-      <td>git branch <br­anc­h></td>
-      <td>Crée une branche</td>
-    </tr>
-    <tr>
-      <td>git branch -v</td>
-      <td>Affiche les branches courantes</td>
-    </tr>
-    <tr>
-      <td>git checkout <pa­ram­ete­rs></td>
-      <td>Switch sur une branche ou un commit</td>
-    </tr>
-    <tr>
-      <td>git checkout -b <br­anc­h_n­ame­></td>
-      <td>Créer une nouvelle branche et switch dessus</td>
-    </tr>
-    <tr>
-      <td>git merge <br­anc­h></td>
-      <td>Fusionne la branche citée et le branche active</td>
-    </tr>
-    <tr>
-      <td>git remote add <re­mot­e_n­ame> <re­pos­ito­ry_­lin­k></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>git pull <re­mot­e_n­ame> <br­anc­h_n­ame­></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>git clone <re­pos­ito­ry_­lin­k></td>
-      <td>Clone un projet sur sa machine</td>
-    </tr>
-    <tr>
-      <td>git help <co­mma­nd></td>
-      <td>Détails d'une commande</td>
-    </tr>
-    <tr>
-      <td>git help</td>
-      <td>Liste des commandes</td>
-    </tr>
-  </table>
-</div>
+    <td class="light_grey">Active la colorisation de la sortie en ligne de commande</td>
+  </tr>
+</table>
+ 
+<table>
+  <tr>
+    <th>CRÉER DES DÉPÔTS</th>
+    <p>Configurer les informations de l'utilisateur pour tous les dépôts locaux
+</p>
+  </tr>
+  <tr>
+    <td class="grey">$ git init [nom-du-projet]</td>
+  </tr>
+  <tr>
+    <td class="light_grey">Crée un dépôt local à partir du nom spécifié</td>
+  </tr>
+  <tr>
+    <td class="grey">$ git clone [url]</td>
+  </tr>
+  <tr>
+    <td class="light_grey">Télécharge un projet et tout son historique de versions</td>
+  </tr>
+</table>
+
 </body>
 </html>
