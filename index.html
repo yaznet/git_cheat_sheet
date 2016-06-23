@@ -47,13 +47,10 @@
     <td class="light_grey">Active la colorisation de la sortie en ligne de commande</td>
   </tr>
 </table>
- 
+
+<h3>CRÉER DES DÉPÔTS</h3>
+<p>Démarrer un nouveau dépôt ou en obtenir un depuis une URL existante</p>
 <table>
-  <tr>
-    <th>CRÉER DES DÉPÔTS</th>
-    <p>Configurer les informations de l'utilisateur pour tous les dépôts locaux
-</p>
-  </tr>
   <tr>
     <td class="grey">$ git init [nom-du-projet]</td>
   </tr>
@@ -65,6 +62,49 @@
   </tr>
   <tr>
     <td class="light_grey">Télécharge un projet et tout son historique de versions</td>
+  </tr>
+</table>
+
+<h3>EFFECTUER DES CHANGEMENTS</h3>
+<p>Consulter les modifications et effectuer une opération de commit</p>
+
+<table>
+  <tr>
+    <td class="grey">$ git status</td>
+  </tr>
+  <tr>
+    <td class="light_grey">Liste tous les nouveaux fichiers et les fichiers modifiés à commiter</td>
+  </tr>
+  <tr>
+    <td class="grey">$ git diff</td>
+  </tr>
+  <tr>
+    <td class="light_grey">Montre les modifications de fichier qui ne sont pas encore indexées</td>
+  </tr>
+    <tr>
+    <td class="light_grey"> $ git add [fichier]</td>
+  </tr>
+    <tr>
+    <td class="light_grey">Ajoute un instantané du fichier, en préparation pour le suivi de version</td>
+  </tr>
+  
+  <tr>
+    <td class="grey"> $ git diff --staged</td>
+  </tr>
+  <tr>
+    <td class="light_grey">Montre les différences de fichier entre la version indexée et la dernière version</td>
+  </tr>
+  <tr>
+    <td class="grey"> $ git reset [fichier]</td>
+  </tr>
+  <tr>
+    <td class="light_grey">Enleve le fichier de l'index, mais conserve son contenu</td>
+  </tr>
+    <tr>
+    <td class="light_grey"> $ git commit -m "[message descriptif]"</td>
+  </tr>
+    <tr>
+    <td class="light_grey">Enregistre des instantanés de fichiers de façon permanente dans l'historique des versions</td>
   </tr>
 </table>
 
