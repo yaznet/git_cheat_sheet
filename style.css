@@ -1,6 +1,6 @@
 body 
 {
-	background: #FFF 
+	background: #D9D5D4
     none repeat scroll 0% 0%;
     font-family: Georgia,Times New Roman,Times,serif;
     font-size: 23px;
@@ -33,7 +33,7 @@ td.light_grey
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
-    text-align: left;
+    text-align: center;
 }
 
 .bleu 
