@@ -1,8 +1,19 @@
-.block 
+
+body 
 {
-	display: inline;
-	max-width: 50%;
-	width: 50%;
+	background: #FFF 
+    none repeat scroll 0% 0%;
+    font-family: Georgia,Times New Roman,Times,serif;
+    font-size: 23px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+img {
+	display: relative;
+	width: auto;
+	margin: 0px;
 }
 
 td.grey 
@@ -14,3 +25,25 @@ td.light_grey
 {
 	background-color: #F5F5F6;
 }
+
+
+
+.block {
+    position: relative;
+    margin: auto 0px;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.bleu 
+{
+    background-color: #EAF1F8;
+}
+.my-block
+{  
+	display:inline-block; 
+}
+
