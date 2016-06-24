@@ -1,4 +1,4 @@
-body 
+body /* Fond, taille et police sur le body */
 {
 	background: #D9D5D4
     none repeat scroll 0% 0%;
@@ -9,24 +9,26 @@ body
     text-align: center;
 }
 
-img {
+img /* affichage image */
+{
 	display: block;
 	width: 100%;
     height: auto;
 	margin: 0px;
 }
 
-td.grey 
+td.grey /* couleur gris sur td */
 {
 	background-color: #EEEEEF;
 }
 
-td.light_grey 
+td.light_grey /* couleur gris claire sur td */
 {
 	background-color: #F5F5F6;
 }
 
-.block {
+.block /* Affichage div's taile, centré ect */
+{
     position: relative;
     margin: auto 0px;
     width: 100%;
@@ -36,21 +38,24 @@ td.light_grey
     text-align: center;
 }
 
-.bleu 
+.bleu /* couleur du block */
 {
     background-color: #EAF1F8;
 }
-.my-block
+
+.my-block /* position du block */
 {  
 	display:inline-block; 
 }
 
-a, a:visited {
+a, a:visited /* couleur, taille liens visité */
+{
     color: #000;
     font-size: 23px;
     text-decoration: none;
 }
-a:hover 
+
+a:hover  decoration liens survolé */
 {
     text-decoration: underline;
 }
