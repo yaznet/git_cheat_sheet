@@ -15,7 +15,6 @@
 <p>Git est le sytème de gestion de version décentralisé open source qui facilite les activités GitHub sur votre ordinateur. Cet aide-mémoire permet un accès rapide aux instructions des commandes Git les plus utilisées.</p>
 </div>
 
-
 <h3>INSTALLER GIT</h3>
 <p>GitHub fournit des clients desktop qui incluent une interface graphique pour les manipulations les plus courantes et une "an automatically updating command line edition of Git" pour les scénari avancés.</p>
 
@@ -88,7 +87,7 @@
     <td class="light_grey">Montre les modifications de fichier qui ne sont pas encore indexées</td>
   </tr>
     <tr>
-    <td class="light_grey"> $ git add [fichier]</td>
+    <td class="grey"> $ git add [fichier]</td>
   </tr>
     <tr>
     <td class="light_grey">Ajoute un instantané du fichier, en préparation pour le suivi de version</td>
@@ -106,7 +105,7 @@
     <td class="light_grey">Enleve le fichier de l'index, mais conserve son contenu</td>
   </tr>
     <tr>
-    <td class="light_grey"> $ git commit -m "[message descriptif]"</td>
+    <td class="grey"> $ git commit -m "[message descriptif]"</td>
   </tr>
     <tr>
     <td class="light_grey">Enregistre des instantanés de fichiers de façon permanente dans l'historique des versions</td>
@@ -131,7 +130,7 @@
     <td class="light_grey">Crée une nouvelle branche</td>
   </tr>
     <tr>
-    <td class="light_grey"> $ git checkout [nom-de-branche]</td>
+    <td class="grey"> $ git checkout [nom-de-branche]</td>
   </tr>
     <tr>
     <td class="light_grey">Bascule sur la branche spécifiée et met à jour le répertoire de travail</td>
@@ -148,6 +147,31 @@
   </tr>
   <tr>
     <td class="light_grey">Supprime la branche spécifiée</td>
+  </tr>
+</table>
+</div>
+
+<h3>CHANGEMENTS AU NIVEAU DES NOMS DE FICHIERS</h3>
+<p>Déplacer et supprimer des fichiers sous suivi de version</p>
+<div class="my-block">
+<table>
+  <tr>
+    <td class="grey">$ git rm [fichier]</td>
+  </tr>
+  <tr>
+    <td class="light_grey">Supprime le fichier du répertoire de travail et met à jour l'index</td>
+  </tr>
+  <tr>
+    <td class="grey"> $ git rm --cached [fichier]</td>
+  </tr>
+  <tr>
+    <td class="light_grey">Supprime le fichier du système de suivi de version mais le préserve localement</td>
+  </tr>
+    <tr>
+    <td class="grey"> $ git mv [fichier-nom] [fichier-nouveau-nom]</td>
+  </tr>
+    <tr>
+    <td class="light_grey">Renomme le fichier et prépare le changement pour un commit</td>
   </tr>
 </table>
 </div>
