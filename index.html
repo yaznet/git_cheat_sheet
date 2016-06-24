@@ -9,9 +9,12 @@
 <!-- Corps de page -->
 <body>
   <header>
-    <h1>Aide-Mémoire GitHub Git</h1>
+    <img src="img/github.png" alt="Logo de Github" />
   </header>
+<div class="block bleu">
 <p>Git est le sytème de gestion de version décentralisé open source qui facilite les activités GitHub sur votre ordinateur. Cet aide-mémoire permet un accès rapide aux instructions des commandes Git les plus utilisées.</p>
+</div>
+
 
 <h3>INSTALLER GIT</h3>
 <p>GitHub fournit des clients desktop qui incluent une interface graphique pour les manipulations les plus courantes et une "an automatically updating command line edition of Git" pour les scénari avancés.</p>
@@ -26,7 +29,7 @@
 
 <h3>CONFIGURATION DES OUTILS</h3>
 <p>Configurer les informations de l'utilisateur pour tous les dépôts locaux</p>
-
+<div class="my-block">
 <table>
   <tr>
     <td class="grey"> $ git config --global user.name "[nom]"</td>
@@ -48,8 +51,10 @@
   </tr>
 </table>
 
+</div>
 <h3>CRÉER DES DÉPÔTS</h3>
 <p>Démarrer un nouveau dépôt ou en obtenir un depuis une URL existante</p>
+<div class="my-block">
 <table>
   <tr>
     <td class="grey">$ git init [nom-du-projet]</td>
@@ -64,10 +69,11 @@
     <td class="light_grey">Télécharge un projet et tout son historique de versions</td>
   </tr>
 </table>
+</div>
 
 <h3>EFFECTUER DES CHANGEMENTS</h3>
 <p>Consulter les modifications et effectuer une opération de commit</p>
-
+<div class="my-block">
 <table>
   <tr>
     <td class="grey">$ git status</td>
@@ -87,7 +93,6 @@
     <tr>
     <td class="light_grey">Ajoute un instantané du fichier, en préparation pour le suivi de version</td>
   </tr>
-
   <tr>
     <td class="grey"> $ git diff --staged</td>
   </tr>
@@ -107,10 +112,11 @@
     <td class="light_grey">Enregistre des instantanés de fichiers de façon permanente dans l'historique des versions</td>
   </tr>
 </table>
+</div>
 
 <h3>GROUPER DES CHANGEMENTS</h3>
 <p>Nommer une série de commits et combiner les résultats de travaux terminés</p>
-
+<div class="my-block">
 <table>
   <tr>
     <td class="grey">$ git branch</td>
@@ -144,6 +150,6 @@
     <td class="light_grey">Supprime la branche spécifiée</td>
   </tr>
 </table>
-
+</div>
 </body>
 </html>
