@@ -49,8 +49,8 @@
     <td class="light_grey">Active la colorisation de la sortie en ligne de commande</td>
   </tr>
 </table>
-
 </div>
+
 <h3>CRÉER DES DÉPÔTS</h3>
 <p>Démarrer un nouveau dépôt ou en obtenir un depuis une URL existante</p>
 <div class="my-block">
@@ -172,6 +172,57 @@
   </tr>
     <tr>
     <td class="light_grey">Renomme le fichier et prépare le changement pour un commit</td>
+  </tr>
+</table>
+</div>
+
+<h3>EXCLURE DU SUIVI DE VERSION</h3>
+<p>Exclure des fichiers et chemins temporaires</p>
+<div class="my-block">
+<table>
+  <tr>
+    <td class="grey">*.log<br>build/<br>temp-*</td>
+  </tr>
+  <tr>
+    <td class="light_grey">Un fichier texte nommé .gitignore
+version accidentel pour les fichiers et chemins correspondant aux pa erns spécifiés</td>
+  </tr>
+  <tr>
+    <td class="grey"> $ git ls-files --other --ignored --exclude-standard</td>
+  </tr>
+  <tr>
+    <td class="light_grey">Liste tous les fichiers exclus du suivi de version dans ce projet</td>
+  </tr>
+</table>
+</div>
+
+<h3>ENREGISTRER DES FRAGMENTS</h3>
+<p>Mettre en suspens des modifications non finies pour y revenir plus tard</p>
+<div class="my-block">
+<table>
+  <tr>
+    <td class="grey">$ git stash</td>
+  </tr>
+  <tr>
+    <td class="light_grey">Enregistre de manière temporaire tous les fichiers sous suivi de version qui ont été modifiés ("remiser son travail")</td>
+  </tr>
+  <tr>
+    <td class="grey"> $ git stash pop</td>
+  </tr>
+  <tr>
+    <td class="light_grey">Applique une remise et la supprime immédiatement</td>
+  </tr>
+  <tr>
+    <td class="grey"> $ git stash list</td>
+  </tr>
+  <tr>
+    <td class="light_grey">Liste toutes les remises</td>
+  </tr>
+  <tr>
+    <td class="grey"> $ git stash drop</td>
+  </tr>
+  <tr>
+    <td class="light_grey">Supprime la remise la plus récente</td>
   </tr>
 </table>
 </div>
